@@ -1,0 +1,12 @@
+# FobFit needs Python 3.10 or newer (tested with 3.13). Install with:  pip install -r requirements.txt
+# The window uses tkinter, which comes with Python. All packages below have permissive licences (BSD, MIT, Apache).
+numpy
+scipy
+trimesh
+networkx
+vtk
+manifold3d
+pillow
+matplotlib
+# optional: lets the slicing step stop a hung Bambu Studio process safely
+psutil
